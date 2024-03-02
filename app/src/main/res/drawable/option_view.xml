@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Define the background color -->
+    <corners android:radius="20dp"/>
+    <solid android:color="#991A2C2C" />
+
+    <!-- Set the width and height -->
+    <size
+        android:width="360dp"
+        android:height="45dp" />
+
+    <!-- Apply mix-blend-mode -->
+
+    <!-- Set the opacity -->
+    <alpha android:alpha="1" />
+</shape>

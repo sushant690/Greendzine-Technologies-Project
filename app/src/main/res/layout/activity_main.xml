@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/img"
+        android:layout_marginBottom="17dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17sp"
+        android:fontFamily="@font/mulish"
+        android:gravity="center_horizontal"
+        android:paddingBottom="49dp"
+        android:text="#We are Electric"
+        android:textColor="#487F07" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="238dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/trying"
+        android:ems="10"
+        android:fontFamily="@font/mulish"
+        android:inputType="text"
+        android:lineSpacingExtra="19dp"
+        android:paddingLeft="15dp"
+        android:hint="E-mail"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:layout_marginLeft="61dp"
+        android:layout_marginRight="61dp"
+
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="238dp"
+        android:layout_height="42dp"
+        android:background="@drawable/trying"
+        android:ems="10"
+        android:fontFamily="@font/mulish"
+        android:inputType="text"
+        android:lineSpacingExtra="19dp"
+        android:paddingLeft="15dp"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:layout_marginLeft="61dp"
+        android:layout_marginRight="61dp"/>
+
+    <TextView
+        android:id="@+id/loginButton"
+        android:layout_width="238dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginRight="61dp"
+        android:background="@drawable/login"
+        android:gravity="center"
+        android:text="Login"
+        android:fontFamily="@font/mulish_bold"
+        android:textColor="#8CFFFFFF"
+        android:clickable="true"/>
+    <TextView
+        android:layout_marginTop="26dp"
+        android:layout_width="143dp"
+        android:layout_height="19dp"
+        android:textAlignment="center"
+        android:text="Forgot Password?"
+        android:textSize="15sp"
+        android:lineSpacingExtra="1dp"
+        android:fontFamily="@font/mulish"
+        android:textColor="#36A546"
+        android:letterSpacing="0.02"
+        android:id="@+id/forgot"
+        android:alpha="1" />
+
+
+</LinearLayout>

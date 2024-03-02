@@ -1,0 +1,38 @@
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Shape -->
+
+    <item>
+        <shape>
+            <!-- UI Properties -->
+            <solid android:color="#242524" />
+            <corners android:radius="20dp" />
+        </shape>
+    </item>
+
+    <!-- Box Shadow - Inset -->
+    <item>
+        <shape>
+            <padding
+                android:left="0px"
+                android:top="3px"
+                android:right="3px"
+                android:bottom="3px" />
+            <solid android:color="#111211" />
+            <corners android:radius="20dp" />
+        </shape>
+    </item>
+
+    <!-- Box Shadow - Outer -->
+    <item>
+        <shape>
+            <padding
+                android:left="3px"
+                android:top="3px"
+                android:right="3px"
+                android:bottom="3px" />
+            <solid android:color="#474A4949" />
+            <corners android:radius="20dp" />
+        </shape>
+    </item>
+</layer-list>
